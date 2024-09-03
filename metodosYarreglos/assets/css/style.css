@@ -1,0 +1,43 @@
+.mainbox{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(146, 148, 147);
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display:flex; 
+    flex-direction:row-reverse; 
+    justify-content:center;
+}
+.input{
+    margin: 50px;
+    text-align: center;
+}
+#ingresartarea{
+    width: 300px;
+}
+h1{
+    text-align: center;
+}
+#btnagregar{
+    background-color: rgb(16, 188, 19);
+    color: white;
+}
+#titulos{
+    display: flex;
+}
+#pid{
+    margin-right: 30px;
+    padding-left: 20px;
+}
+#cuentas{
+    text-align: center;
+}
+#checkeo:checked{
+accent-color: rgb(68, 40, 196);
+}
+#eliminar{
+    color: white;
+    background-color: rgb(167, 32, 44)
+}
